@@ -1,0 +1,14 @@
+To create react app in any file
+ npm init react-app
+TO START NPM START
+
+npx create-react-app my-app
+cd my-app
+
+rm -rf node_modules
+ln -s ../hello-world/node_modules 
+
+
+npm start
+rm -rf node_modules
+ln -s ../hello-world/node_modules 
